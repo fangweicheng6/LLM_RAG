@@ -1,0 +1,36 @@
+# Generated structured configuration. Edit this file to change runtime behaviour.
+{
+  "ingestion": {
+    "chunking": {
+      "section_max_chars": 2200,
+      "section_min_chars": 8
+    },
+    "pdf": {
+      "ocr_min_text_chars": 40,
+      "ocr_zoom": 2.0,
+      "extract_tables": true
+    },
+    "ocr": {
+      "enabled": true,
+      "min_score": 0.45
+    },
+    "asr": {
+      "model": "small",
+      "language": null,
+      "beam_size": 5,
+      "vad_filter": true
+    },
+    "video": {
+      "frame_ocr_enabled": true,
+      "frame_ocr_interval_sec": 15.0,
+      "frame_ocr_dedup": true
+    },
+    "docling": {
+      "max_tokens": 480,
+      "merge_peers": true
+    },
+    "embedding": {
+      "batch_size": 16
+    }
+  }
+}

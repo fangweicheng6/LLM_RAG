@@ -1,0 +1,19 @@
+# Generated structured configuration. Edit this file to change runtime behaviour.
+{
+  "domains": {
+    "allowed": [
+      "topology",
+      "device",
+      "pcb",
+      "control",
+      "schematic"
+    ],
+    "descriptions": {
+      "topology": "电源拓扑结构与设计方法，包括 BUCK、BOOST、Flyback、LLC、DAB、PFC 等，涉及功率变换结构、工作原理、开关状态、电流路径、占空比、磁性元件与参数设计。",
+      "device": "功率器件与元件知识，包括 MOSFET、IGBT、SiC、GaN、二极管、电感、电容等，涉及 Datasheet 参数、耐压、电流能力、导通电阻、开关损耗、器件选型与热设计。",
+      "pcb": "电源 PCB 设计知识，包括 Layout、布线、Power Loop、Gate Loop、Ground、EMI/EMC、寄生参数、热管理、爬电距离、电气间隙、电源完整性和信号完整性。",
+      "control": "电力电子控制算法知识，包括 PID、PI、PWM、SVPWM、Voltage Mode Control、Current Mode Control、MPPT、Loop Compensation、Stability Analysis 等，涉及控制环路、调制策略、补偿器设计、稳定性分析与控制参数设计。",
+      "schematic": "电源原理图与功能电路知识，包括 Power Stage、Gate Driver、Sampling Circuit、Protection Circuit、Auxiliary Power Supply、Signal Conditioning、Interface Circuit 等，涉及功能模块连接、驱动/采样/保护/辅助电源/接口电路及原理图设计。"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Evaluation dataset generation policy.
+{
+  "dataset_generation": {
+    "dataset": {
+      "total_size": 1000,
+      "question_type_ratio": {
+        "single": 0.5,
+        "same_domain_multi": 0.25,
+        "cross_domain_multi": 0.25
+      },
+      "question_intent_ratio": {
+        "knowledge_qa": 0.45,
+        "reasoning": 0.3,
+        "comparison": 0.1,
+        "document_extract": 0.1,
+        "table_analysis": 0.05
+      }
+    },
+    "validation": {
+      "enable_llm_validator": true,
+      "retry_times": 3
+    },
+    "benchmark": {
+      "router": true,
+      "retrieval": true,
+      "generation": true,
+      "e2e": true
+    }
+  }
+}

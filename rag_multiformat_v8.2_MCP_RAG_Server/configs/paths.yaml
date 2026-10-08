@@ -1,0 +1,14 @@
+# Generated structured configuration. Edit this file to change runtime behaviour.
+{
+  "paths": {
+    "kb_root": "D:/LLM_RAG/RAG_project/knowledge_base/knowledge_base_3",
+    "data_dir": "data_index_only",
+    "processed_dir": "data_index_only/processed",
+    "chunk_jsonl": "data_index_only/processed/knowledge_index.jsonl",
+    "error_jsonl": "data_index_only/processed/processing_errors.jsonl",
+    "chroma_dir": "data_index_only/vector_db/chroma",
+    "source_store_dir": "data_index_only/source_store",
+    "collection_prefix": "rag_",
+    "index_schema_version": 1
+  }
+}
