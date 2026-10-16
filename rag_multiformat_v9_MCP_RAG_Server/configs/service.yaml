@@ -1,0 +1,31 @@
+# Service listeners, observability and startup policy.
+{
+  "service": {
+    "server": {
+      "socket_host": "0.0.0.0",
+      "socket_port": 1234,
+      "http_host": "0.0.0.0",
+      "http_port": 8000
+    },
+    "mcp": {
+      "http_host": "0.0.0.0",
+      "http_port": 8100,
+      "streamable_http_path": "/mcp",
+      "warmup": true,
+      "expose_admin_tools": false,
+      "call_lock_timeout": 120
+    },
+    "observability": {
+      "langfuse": {
+        "enabled": true
+      },
+      "prometheus": {
+        "enabled": true
+      }
+    },
+    "runtime": {
+      "preload_models": true,
+      "preload_vector_db": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# Generated structured configuration. Edit this file to change runtime behaviour.
+{
+  "model": {
+    "embedding": {
+      "name": "BAAI/bge-m3",
+      "device": "cuda",
+      "query_instruction": ""
+    },
+    "reranker": {
+      "name": "BAAI/bge-reranker-large"
+    },
+    "llm": {
+      "provider": "openai_compatible",
+      "api_key": "${LLM_API_KEY}",
+      "base_url": "https://tokenhub.tencentmaas.com/plan/v3",
+      "model": "deepseek-v4-flash",
+      "timeout_sec": 90,
+      "max_retries": 2,
+      "temperature": 0.0,
+      "disable_thinking": true,
+      "roles": {
+        "router": "deepseek-v4-pro",
+        "multi_hop": "deepseek-v4-flash",
+        "selector": "deepseek-v4-flash",
+        "generator": "deepseek-v4-pro",
+        "evaluation": "deepseek-v4-pro"
+      }
+    },
+    "generation": {
+      "max_output_tokens": 1800
+    }
+  }
+}

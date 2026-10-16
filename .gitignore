@@ -1,0 +1,25 @@
+# ===== 历史版本归档（本地保留，不入库）=====
+a_version/
+rag_multiformat_v8.2_MCP_RAG_Server/
+
+# ===== 数据与索引产物（可由 ingestion 脚本重建，不入库）=====
+data_index_only/
+
+# ===== Python 运行产物 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# ===== 运行时/日志 =====
+*.log
+logs/
+
+# ===== 编辑器 / 环境 =====
+.vscode/
+.idea/
+.env

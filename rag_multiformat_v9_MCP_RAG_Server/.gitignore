@@ -1,0 +1,18 @@
+# ===== 知识库数据（体积大，不入库）=====
+# 原始文档与向量库：source_store / processed / vector_db
+knowledge_base/
+# 典型知识库原始 PDF
+docs/typical knowledge/
+
+# ===== Python 运行产物 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# ===== 运行时/日志 =====
+*.log
+logs/

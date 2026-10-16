@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "industrial-rag": {
+      "command": "D:\\RAG\\rag\\Scripts\\python.exe",
+      "args": [
+        "D:\\RAG\\rag_multiformat_v9_MCP_RAG_Server\\deployment\\mcp_server.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}

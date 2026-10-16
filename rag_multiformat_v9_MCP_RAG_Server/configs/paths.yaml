@@ -1,0 +1,14 @@
+# Generated structured configuration. Edit this file to change runtime behaviour.
+{
+  "paths": {
+    "kb_root": "D:/RAG/rag_multiformat_v9_MCP_RAG_Server/docs/typical knowledge",
+    "data_dir": "knowledge_base",
+    "processed_dir": "knowledge_base/processed",
+    "chunk_jsonl": "knowledge_base/processed/knowledge_index.jsonl",
+    "error_jsonl": "knowledge_base/processed/processing_errors.jsonl",
+    "chroma_dir": "knowledge_base/vector_db/chroma",
+    "source_store_dir": "knowledge_base/source_store",
+    "collection_prefix": "rag_",
+    "index_schema_version": 1
+  }
+}
