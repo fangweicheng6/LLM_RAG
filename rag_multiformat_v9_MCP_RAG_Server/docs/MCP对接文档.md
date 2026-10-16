@@ -17,7 +17,7 @@
 
 ```powershell
 # 在项目根目录
-python -m server.start_server --mode mcp-http        # 推荐
+🟥 python -m server.start_server --mode mcp-http        # 推荐
 python -m deployment.mcp_server --transport streamable-http
 start_mcp.bat                                        # 一键启动（默认 streamable-http）
 ```
